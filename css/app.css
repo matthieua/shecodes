@@ -72,7 +72,7 @@ header .cta {
   color: #9C5D97;
   border: 1px solid #9C5D97;
   font-weight: 500;
-  border-radius: 20px;
+  border-radius: 25px;
   font-size: 14px;
   display: block;
   position: absolute;
@@ -80,4 +80,43 @@ header .cta {
   right: 0;
   top: 35px;
   padding: 0 20px;
+}
+
+.banner-wrapper {
+  padding: 50px 0;
+  text-align: center;
+  margin: 0 auto; 
+}
+
+.banner {
+  display: inline-block;
+  background: #fdf5e7;
+  border-radius: 25px;
+}
+
+.banner a {
+  color: #9C5D97;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.banner strong {
+  border-radius: 25px;
+  background: #252759;
+  color: #fff;
+  display: inline-block;
+  padding: 4px 8px;
+  font-weight: 500;
+  line-height: 26px;
+  margin: 2px;
+  font-size: 12px
+}
+
+.banner span {
+  line-height: 30px;
+}
+
+.banner img {
+  line-height: 30px;
+  margin: 0 16px 0;
 }
