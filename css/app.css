@@ -31,6 +31,10 @@ body * {
   font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
 }
 
+.center {
+  text-align: center;
+}
+
 .content {
   max-width: 1160px;
   margin: 0 auto;
@@ -100,6 +104,10 @@ header .cta {
   font-weight: 200;
 }
 
+.banner a:hover {
+  text-decoration: none;
+}
+
 .banner strong {
   border-radius: 25px;
   background: #252759;
@@ -119,4 +127,29 @@ header .cta {
 .banner img {
   line-height: 30px;
   margin: 0 16px 0;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 34px;
+  color: #252759;
+  line-height: 48px;
+  margin: 0;
+}
+
+h2 {
+  color: #655194;
+  font-size: 34px;
+  margin: 0;
+  padding: 0;
+  line-height: 48px;
+  font-weight: 900;
+}
+
+.section--header h3 {
+  margin: 24px 0;
+  color: #9C5D97;
+  font-size: 18px;
+  line-height: 1;
+  font-family: 'PT Mono', monospace;
 }
