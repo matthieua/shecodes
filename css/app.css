@@ -1,0 +1,55 @@
+body {
+  background: #fff;
+}
+
+.content {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 35px;
+  position: relative;
+}
+
+header img {
+  position: absolute;
+  left: 0;
+  top: 35px;
+  height: 48px;
+
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+header li {
+  display: inline-block;
+}
+
+header li a {
+  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 48px;
+  padding: 0 12px;
+  color: #132C64;
+}
+
+header .cta {
+  color: #9C5D97;
+  border: 1px solid #9C5D97;
+  border-radius: 20px;
+  font-size: 14px;
+  display: block;
+  position: absolute;
+  line-height: 34px;
+  font-weight: 300;
+  right: 0;
+  top: 35px;
+  padding: 0 20px;
+}
