@@ -48,6 +48,15 @@ h2 {
   font-weight: 900;
 }
 
+a {
+  color: #9C5D97;
+  text-decoration: underline
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 p {
   font-family: 'PT Mono', monospace;
   margin: 24px 0;
@@ -136,11 +145,12 @@ header .cta {
 .banner a {
   color: #9C5D97;
   font-size: 12px;
+  text-decoration: none;
   font-weight: 200;
 }
 
 .banner a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .banner strong {
@@ -250,4 +260,120 @@ header .cta {
 .section-separator--right {
   background: #fff url('../images/separator--right.png') no-repeat right 0;
   height: 105px;
+}
+
+.teacher {
+  padding: 24px 0;
+  position: relative;
+}
+
+.teacher h3 {
+  font-size: 34px;
+  font-weight: 900;
+  color: #252759;
+  line-height: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+.teacher-description {
+  padding: 0 0 0 24px;
+}
+
+.teacher-photo {
+  background: #d9dde6;
+  max-width: 250px;
+  margin-bottom: 40px;
+  border-radius: 0 50% 50% 0;
+}
+
+.teacher img {
+  border-radius: 0 50% 50% 0;
+  margin: 0;
+  position: relative;
+  top: 24px;
+  max-width: 250px;
+  left: 24px;
+}
+
+.teacher h4 {
+  color: #655194;
+  font-weight: 900;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.teacher--middle img {
+  border-radius: 50% 0 0 50%;
+}
+
+.teacher--middle .teacher-photo {
+  border-radius: 50% 0 0 50%;
+}
+
+.teacher--middle img {
+  right: 24px;
+  left: auto;
+}
+
+.teacher--middle .teacher-description {
+  padding: 0 24px 0 0;
+}
+
+.program-day {
+  margin-top: 30px;
+}
+
+.program-day h3 {
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 48px;
+  margin: 8px 0;
+  color: #252759;
+}
+
+.program-day h4 {
+  color: #655194;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 900;
+}
+
+.program-day ul {
+  margin: 25px 0 0;
+  padding: 0;
+}
+
+.program-day li {
+  margin: 0;
+  padding: 0;
+  color: #9C5D97;
+  font-size: 18px;
+  list-style: none;
+}
+
+.program-day li::before {
+  color: #655194;  
+  content: "\2022"; 
+  font-size: 18px; 
+  font-weight: 900;
+  padding-right: 10px; 
+  position: relative;
+  top: 0em; 
+}
+
+.quote {
+  margin: 60px 0;
+}
+
+.quote-description {
+  margin-top: 50px;
+}
+
+.quote-description strong {
+  color: #655194;
+  font-weight: 900;
+  margin-top: 16px;
+  display: block;
 }
