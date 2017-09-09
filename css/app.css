@@ -24,7 +24,7 @@
 
 
 html {
-  background:  url('../images/separator--left-rounded.png') no-repeat left 0 bottom 236px;  
+  background:  url('../images/separator--left-rounded.png') no-repeat left -50px bottom 50px;  
 }
 body {
   position: relative;
@@ -52,6 +52,21 @@ body * {
 .btn-primary:hover {
   border-color: #655194;
   background: #655194;
+}
+
+.btn-twitter, .btn-twitter:hover {
+  border-color: #1da1f2;
+  background: #1da1f2;
+}
+
+.btn-facebook, .btn-facebook:hover {
+  border-color: #3b5998;
+  background: #3b5998;
+}
+
+.btn-icon i {
+  font-size: 22px;
+  padding-right: 5px;
 }
 
 .btn-secondary, .btn-secondary:hover {
@@ -473,7 +488,7 @@ header .cta {
   width: 100%;
   background: #f7f2f7;
   border: none;
-  border-radius: 25px;
+  border-radius: 50%;
   color: #9C5D97;
   padding: 0 32px;
   font-size: 12px;
@@ -495,4 +510,36 @@ header .cta {
   color: #9C5D97;
   font-size: 12px;
   font-family: 'PT Mono', monospace;
+}
+
+
+.follow-links {
+  margin: 50px 0;
+}
+
+.follow {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.follow i {
+  position: relative;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.follow:hover span {
+  text-decoration: underline!important;
+}
+
+.follow--twitter {
+  color: #1da1f2;
+}
+
+.follow--facebook {
+  color: #3b5998; 
+}
+
+.share-links a {
+  margin: 24px 12px;
 }
