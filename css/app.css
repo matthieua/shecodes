@@ -43,7 +43,7 @@ h2 {
   color: #655194;
   font-size: 34px;
   margin: 0;
-  padding: 0;
+  padding: 0 0 24px;
   line-height: 48px;
   font-weight: 900;
 }
@@ -188,9 +188,11 @@ header .cta {
   font-size: 18px;
   line-height: 26px;
   color: #655194;
+  max-width: 750px;
+  text-align: center;
   font-weight: 900;
   text-transform: uppercase;
-  margin: 15px 0;
+  margin: 15px auto;
 }
 
 .section-header p {
