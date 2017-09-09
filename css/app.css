@@ -192,3 +192,36 @@ header .cta {
 .section-header p {
   margin: 40px auto;
 }
+
+.mission__image {
+  margin-top: 115px;
+}
+
+.mission__list-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mission__list-item {
+  margin: 0;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 4px;
+  transition:  background-color 200ms ease;
+}
+
+.mission__list-item:hover {
+  background-color: #edeff3;
+}
+.mission__list-item h3 {
+  margin: 0 0 20px; 
+  font-size: 34px;
+  line-height: 46px;
+  font-weight: 900;
+  color: #252759;
+}
+
+.mission__list-item p {
+  margin: 0;
+}
