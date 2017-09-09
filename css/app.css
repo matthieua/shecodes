@@ -36,6 +36,42 @@ body * {
   font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
 }
 
+.btn-primary, .btn-primary:hover {
+  border-radius: 25px;
+  background: #9c5d97;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 16px 24px;
+  border: none;
+  border: 1px solid  #9c5d97;
+  transition: background 200ms ease, border-color 200ms ease;
+}
+
+.btn-primary:hover {
+  border-color: #655194;
+  background: #655194;
+}
+
+.btn-secondary, .btn-secondary:hover {
+  border-radius: 25px;
+  background: #fff;
+  text-decoration: none;
+  color: #9c5d97;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 16px 24px;
+  border: none;
+  border: 1px solid #9c5d97;
+  transition: background 200ms ease;
+}
+
+.btn-secondary:hover {
+  background: #9c5d97;
+  color: #fff;
+}
+
 h1 {
   font-weight: 900;
   font-size: 34px;
@@ -397,4 +433,31 @@ header .cta {
   font-weight: 900;
   margin-top: 16px;
   display: block;
+}
+
+.faq h3 {
+  font-size: 34px;
+  color: #252759;
+  line-height: 48px;
+  font-weight: 900;
+}
+
+.event {
+  padding-top: 30px;
+}
+
+.event h3 {
+  line-height: 48px;
+  font-size: 34px;
+  color: #252759;
+  font-weight: 900;
+  margin-bottom: 48px;
+}
+
+.event h3 small {
+  display: block;
+  font-weight: 900;
+  color: #655194;
+  font-size: 18px;
+  line-height: 25px;
 }
