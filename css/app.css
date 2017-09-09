@@ -72,7 +72,7 @@ p {
 }
 
 .content-inner {
-  max-width: 750px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -122,7 +122,7 @@ header .cta {
 }
 
 .banner-wrapper {
-  padding: 50px 0;
+  padding: 0 0 50px;
   text-align: center;
   margin: 0 auto;
 }
@@ -164,8 +164,12 @@ header .cta {
   margin: 0 16px 0;
 }
 
+.section--primary {
+  margin: 80px auto;
+}
+
 .section--secondary {
-  margin: 120px auto;
+  margin: 0 auto;
 }
 
 .section-header .emoji {
@@ -224,4 +228,24 @@ header .cta {
 
 .mission__list-item p {
   margin: 0;
+}
+
+.section-separator {
+  margin: 80px 0;
+  width: 100%;
+}
+
+.section-separator--left {
+  background: #fff url('../images/separator--left.png') no-repeat 0 0;
+  height: 105px;
+}
+
+.section-separator--left-secondary {
+  background: #fff url('../images/separator--left-secondary.png') no-repeat 0 0;
+  height: 105px;
+}
+
+.section-separator--right {
+  background: #fff url('../images/separator--right.png') no-repeat right 0;
+  height: 105px;
 }
