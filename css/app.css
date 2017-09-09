@@ -461,3 +461,38 @@ header .cta {
   font-size: 18px;
   line-height: 25px;
 }
+
+.subsribe__form {
+  background: #f7f2f7;
+  border-radius: 25px;
+  position: relative;
+  margin: 40px 0;
+}
+
+.subsribe__form input[type=email] {
+  width: 100%;
+  background: #f7f2f7;
+  border: none;
+  border-radius: 25px;
+  color: #9C5D97;
+  padding: 0 32px;
+  font-size: 12px;
+  width: 80%;
+  line-height: 70px;
+}
+
+.subsribe__form input:focus {
+  outline: 0;
+}
+
+.subsribe__form .btn {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+.subsribe__form input::placeholder {
+  color: #9C5D97;
+  font-size: 12px;
+  font-family: 'PT Mono', monospace;
+}
