@@ -397,6 +397,13 @@ header .cta {
   margin-top: 30px;
 }
 
+.program-day small {
+  color: #132C64;
+  display: block;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
 .program-day h3 {
   font-size: 34px;
   font-weight: 900;
