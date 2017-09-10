@@ -177,6 +177,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
+  height: 118px;
 }
 
 .header-inner {
@@ -222,7 +223,7 @@ header .cta {
   position: absolute;
   line-height: 34px;
   right: 0;
-  top: 35px;
+  top: 40px;
   padding: 0 20px;
 }
 
