@@ -1,0 +1,21 @@
+@media (max-width: 1160px) {
+  header {
+      padding: 0 15px;
+    }
+
+  .section {
+    padding: 0 15px;
+  }
+  .teacher img {
+    max-width: 120px;
+    border-radius: 50%;
+  }
+
+  .teacher-photo {
+    background: transparent;
+  }
+
+  .quote img {
+    border-radius: 50%;
+  }
+}

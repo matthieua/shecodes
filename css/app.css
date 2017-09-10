@@ -136,11 +136,35 @@ p {
   margin: 0 auto;
 }
 
-.headroom--unpinned,
-.headroom--not-top {
+.shadow {
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+
+.headroom--unpinned header,
+.headroom--not-top header {
   box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
   background: rgba(255, 255, 255, 0.97)
 }
+
+.headroom--unpinned .banner-wrapper,
+.headroom--not-top .banner-wrapper {
+  position:   fixed;
+  top:        200px;
+  z-index:    1;
+  widows:     100%;
+  position:   fixed;
+  top:        140px;
+  width:      100%;
+  margin:     0 auto;
+  text-align: center;
+  left:       0;
+}
+
+.headroom--unpinned .banner--upcoming,
+.headroom--not-top .banner--upcoming {
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+
 
 .content-inner {
   max-width: 960px;
@@ -206,6 +230,7 @@ header .cta {
   padding: 0 0 50px;
   text-align: center;
   margin: 0 auto;
+  transition: top 200ms ease;
 }
 
 .banner {
