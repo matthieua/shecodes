@@ -143,17 +143,21 @@ p {
 .headroom--unpinned header,
 .headroom--not-top header {
   box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
-  background: rgba(255, 255, 255, 0.97)
+  background: rgba(255, 255, 255, 0.97);
+  height: 88px;
+}
+
+.headroom--unpinned .header-inner,
+.headroom--not-top .header-inner {
+  margin: 20px 0;
 }
 
 .headroom--unpinned .banner-wrapper,
 .headroom--not-top .banner-wrapper {
   position:   fixed;
-  top:        200px;
   z-index:    1;
-  widows:     100%;
   position:   fixed;
-  top:        140px;
+  top:        120px;
   width:      100%;
   margin:     0 auto;
   text-align: center;
@@ -178,17 +182,19 @@ header {
   width: 100%;
   top: 0;
   height: 118px;
+  transition: height 200ms ease-in-out;
 }
 
 .header-inner {
-  padding: 35px;
+  margin: 35px 0;
   position: relative;
+  transition: margin 200ms ease-in-out;
 }
 
 header img {
   position: absolute;
   left: 0;
-  top: 35px;
+  top: 0;
   height: 48px;
 }
 
@@ -223,7 +229,7 @@ header .cta {
   position: absolute;
   line-height: 34px;
   right: 0;
-  top: 40px;
+  top: 5px;
   padding: 0 20px;
 }
 
