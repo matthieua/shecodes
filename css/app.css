@@ -152,18 +152,6 @@ p {
   margin: 20px 0;
 }
 
-.headroom--unpinned .banner-wrapper,
-.headroom--not-top .banner-wrapper {
-  position:   fixed;
-  z-index:    1;
-  position:   fixed;
-  top:        120px;
-  width:      100%;
-  margin:     0 auto;
-  text-align: center;
-  left:       0;
-}
-
 .headroom--unpinned .banner--upcoming,
 .headroom--not-top .banner--upcoming {
   box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
@@ -236,14 +224,22 @@ header .cta {
 
 .headroom--unpinned header .cta,
 .headroom--not-top header .cta {
-  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 4px 4™px 0;
 }
 
 .banner-wrapper {
-  padding: 0 0 50px;
+  padding:    0;
   text-align: center;
-  margin: 0 auto;
+  position:   fixed;
+  margin:     0 auto;
   transition: top 200ms ease;
+  z-index:    1;
+  position:   fixed;
+  top:        120px;
+  width:      100%;
+  margin:     0 auto;
+  text-align: center;
+  left:        0;
 }
 
 .banner {
@@ -285,7 +281,7 @@ header .cta {
 }
 
 .section--primary {
-  margin: 80px auto;
+  margin: 120px auto 40px;
 }
 
 .section--primary p {

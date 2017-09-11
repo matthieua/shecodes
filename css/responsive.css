@@ -65,4 +65,12 @@
   .section-header h2 {
     font-size: 32px;
   }
+
+  .mission__list-item {
+    text-align: center;
+  }
+
+  .program-day li::before {
+    content: ""; 
+  }
 }
