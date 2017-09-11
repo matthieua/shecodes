@@ -210,27 +210,33 @@ header li {
 }
 
 header li a {
-  font-size: 14px;
-  line-height: 48px;
-  font-weight: 500;
-  padding: 0 12px;
-  color: #272044;
-  text-decoration: none;
+  font-size:       14px;
+  line-height:     48px;
+  font-weight:     500;
+  padding:         0 12px;
+  color:           #272044;
+  text-decoration:  none;
 }
 
 header .cta {
-  color: #fff;
-  background: #885df1;
-  font-weight: 500;
-  border-radius: 25px;
+  color:           #fff;
+  background:      #885df1;
+  font-weight:     500;
+  border-radius:   25px;
   text-decoration: none;
-  font-size: 14px;
-  display: block;
-  position: absolute;
-  line-height: 34px;
-  right: 0;
-  top: 5px;
-  padding: 0 20px;
+  font-size:       14px;
+  display:         block;
+  position:        absolute;
+  line-height:     34px;
+  right:           0;
+  top:             5px;
+  transition:      box-shadow 200ms ease-in-out;
+  padding:         0 20px;
+}
+
+.headroom--unpinned header .cta,
+.headroom--not-top header .cta {
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
 }
 
 .banner-wrapper {
