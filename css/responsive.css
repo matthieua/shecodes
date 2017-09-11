@@ -18,4 +18,33 @@
   .quote img {
     border-radius: 50%;
   }
+
+  .teacher {
+    text-align: center;
+  }
+
+  .teacher--middle img {
+    right: auto;
+  }
+
+  .program-day {
+    text-align: center;
+  }
+
+  .quote {
+    text-align: center;
+  }
+
+  .faq {
+    text-align: center;
+  }
+
+  .follow {
+    text-align: center;
+    display: block;
+  }
+
+  .event {
+    text-align: center;
+  }
 }
