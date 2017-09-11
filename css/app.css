@@ -38,20 +38,20 @@ body * {
 
 .btn-primary, .btn-primary:hover {
   border-radius: 25px;
-  background: #9c5d97;
+  background: #885df1;
   text-decoration: none;
   color: #fff;
   font-size: 16px;
   line-height: 22px;
   padding: 16px 24px;
   border: none;
-  border: 1px solid  #9c5d97;
+  border: 1px solid  #885df1;
   transition: background 200ms ease, border-color 200ms ease;
 }
 
 .btn-primary:hover {
-  border-color: #655194;
-  background: #655194;
+  border-color: #5e41a7;
+  background: #5e41a7;
 }
 
 .btn-twitter, .btn-twitter:hover {
@@ -90,13 +90,13 @@ body * {
 h1 {
   font-weight: 900;
   font-size: 34px;
-  color: #252759;
+  color: #272044;
   line-height: 48px;
   margin: 0;
 }
 
 h2 {
-  color: #655194;
+  color: #885df1;
   font-size: 34px;
   margin: 0;
   padding: 0 0 24px;
@@ -105,7 +105,7 @@ h2 {
 }
 
 a {
-  color: #9C5D97;
+  color: #272044;
   text-decoration: underline
 }
 
@@ -219,8 +219,8 @@ header li a {
 }
 
 header .cta {
-  color: #9C5D97;
-  border: 1px solid #9C5D97;
+  color: #fff;
+  background: #885df1;
   font-weight: 500;
   border-radius: 25px;
   text-decoration: none;
@@ -242,7 +242,7 @@ header .cta {
 
 .banner {
   display: inline-block;
-  background: #fdf5e7;
+  background: #fffbef;
   border-radius: 25px;
 }
 
@@ -259,7 +259,7 @@ header .cta {
 
 .banner strong {
   border-radius: 25px;
-  background: #252759;
+  background: #885df1;
   color: #fff;
   display: inline-block;
   padding: 4px 8px;
@@ -282,6 +282,10 @@ header .cta {
   margin: 80px auto;
 }
 
+.section--primary p {
+  color: #272044;
+}
+
 .section--secondary {
   margin: 0 auto;
 }
@@ -294,14 +298,14 @@ header .cta {
 .section-header h2 {
   font-size: 74px;
   line-height: 100px;
-  color: #252759;
+  color: #272044;
   font-weight: 400;
 }
 
 .section-header h3 {
   font-size: 18px;
   line-height: 26px;
-  color: #655194;
+  color: #885df1;
   max-width: 750px;
   text-align: center;
   font-weight: 900;
@@ -311,6 +315,7 @@ header .cta {
 
 .section-header p {
   margin: 40px auto;
+  color: #272044;
 }
 
 .mission__image {
@@ -332,18 +337,19 @@ header .cta {
 }
 
 .mission__list-item:hover {
-  background-color: #edeff3;
+  background-color: #fffbef;
 }
 .mission__list-item h3 {
   margin: 0 0 20px; 
   font-size: 34px;
   line-height: 46px;
   font-weight: 900;
-  color: #252759;
+  color: #885df1;
 }
 
 .mission__list-item p {
   margin: 0;
+  color: #9C5D97;
 }
 
 .section-separator {
@@ -374,7 +380,7 @@ header .cta {
 .teacher h3 {
   font-size: 34px;
   font-weight: 900;
-  color: #252759;
+  color: #272044;
   line-height: 48px;
   margin: 0;
   padding: 0;
@@ -401,7 +407,7 @@ header .cta {
 }
 
 .teacher h4 {
-  color: #655194;
+  color: #885DF1;
   font-weight: 900;
   line-height: 25px;
   margin: 0;
@@ -421,6 +427,10 @@ header .cta {
   left: auto;
 }
 
+.teacher-description p {
+  color: #9C5D97;
+}
+
 .teacher--middle .teacher-description {
   padding: 0 24px 0 0;
 }
@@ -430,7 +440,7 @@ header .cta {
 }
 
 .program-day small {
-  color: #132C64;
+  color: #272044;
   display: block;
   line-height: 1.5;
   font-size: 14px;
@@ -441,11 +451,11 @@ header .cta {
   font-weight: 900;
   line-height: 48px;
   margin: 8px 0;
-  color: #252759;
+  color: #272044;
 }
 
 .program-day h4 {
-  color: #655194;
+  color: #885df1;
   font-size: 18px;
   line-height: 25px;
   font-weight: 900;
@@ -465,7 +475,7 @@ header .cta {
 }
 
 .program-day li::before {
-  color: #655194;  
+  color: #885df1;  
   content: "\2022"; 
   font-size: 18px; 
   font-weight: 900;
@@ -482,8 +492,12 @@ header .cta {
   margin-top: 50px;
 }
 
+.quote-description p {
+  color: #9C5D97;
+}
+
 .quote-description strong {
-  color: #655194;
+  color: #885df1;
   font-weight: 900;
   margin-top: 16px;
   display: block;
@@ -491,7 +505,7 @@ header .cta {
 
 .faq h3 {
   font-size: 34px;
-  color: #252759;
+  color: #272044;
   line-height: 48px;
   font-weight: 900;
 }
@@ -503,7 +517,7 @@ header .cta {
 .event h3 {
   line-height: 48px;
   font-size: 34px;
-  color: #252759;
+  color: #885df1;
   font-weight: 900;
   margin-bottom: 48px;
 }
@@ -511,7 +525,7 @@ header .cta {
 .event h3 small {
   display: block;
   font-weight: 900;
-  color: #655194;
+  color: #885df1;
   font-size: 18px;
   line-height: 25px;
 }
