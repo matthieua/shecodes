@@ -23,6 +23,7 @@
   }
   .teacher-photo {
     background: transparent;
+    max-width: 100%;
   }
 
   .quote img {
