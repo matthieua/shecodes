@@ -1,35 +1,35 @@
 @font-face {
   font-family: "Cerebri Sans";
-  src: url(../fonts/Cerebri-Sans/Cerebri-Sans/WEB/CerebriSans-Light.eot);
-  src: url(../fonts/Cerebri-Sans/Cerebri-Sans/TTF/CerebriSans-Light.ttf);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Light.eot);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Light.ttf);
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Cerebri Sans";
-  src: url(../fonts/Cerebri-Sans/Cerebri-Sans/WEB/CerebriSans-Regular.eot);
-  src: url(../fonts/Cerebri-Sans/Cerebri-Sans/TTF/CerebriSans-Regular.ttf);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Regular.eot);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Regular.ttf);
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Cerebri Sans";
-  src: url(../fonts/Cerebri-Sans/Cerebri-Sans/WEB/CerebriSans-Bold.eot);
-  src: url(../fonts/Cerebri-Sans/Cerebri-Sans/TTF/CerebriSans-Bold.ttf);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Bold.eot);
+  src: url(../fonts/Cerebri-Sans/CerebriSans-Bold.ttf);
   font-weight: 700;
   font-style: normal;
 }
 
 
 html {
-  background:  url('../images/separator--left-rounded.png') no-repeat left -50px bottom 50px;  
+  background:  url('../images/separators/separator--left-rounded.png') no-repeat left -50px bottom 50px;  
 }
 body {
   position: relative;
   padding-top: 100px;
-  background:  url('../images/separator--right-rounded.png') no-repeat right 360px;  
+  background:  url('../images/separators/separator--right-rounded.png') no-repeat right 360px;  
 }
 
 body * {
@@ -305,14 +305,20 @@ header .cta {
 }
 
 .section-header h3 {
-  font-size: 18px;
-  line-height: 26px;
-  color: #885df1;
-  max-width: 750px;
-  text-align: center;
-  font-weight: 900;
+  font-size:      18px;
+  line-height:    26px;
+  color:          #885df1;
+  max-width:      750px;
+  text-align:     center;
+  font-weight:    900;
   text-transform: uppercase;
-  margin: 15px auto;
+  margin:         15px auto;
+}
+
+.section-header a {
+  color:          #885df1;
+  text-decoration: underline;
+  
 }
 
 .section-header p {
@@ -360,17 +366,17 @@ header .cta {
 }
 
 .section-separator--left {
-  background: url('../images/separator--left.png') no-repeat 0 0;
+  background: url('../images/separators/separator--left.png') no-repeat 0 0;
   height: 105px;
 }
 
 .section-separator--left-secondary {
-  background: url('../images/separator--left-secondary.png') no-repeat 0 0;
+  background: url('../images/separators/separator--left-secondary.png') no-repeat 0 0;
   height: 105px;
 }
 
 .section-separator--right {
-  background: url('../images/separator--right.png') no-repeat right 0;
+  background: url('../images/separators/separator--right.png') no-repeat right 0;
   height: 105px;
 }
 
@@ -442,23 +448,24 @@ header .cta {
 }
 
 .program-day small {
-  color: #272044;
-  display: block;
+  color:       #272044;
+  display:     block;
   line-height: 1.5;
-  font-size: 14px;
+  font-size:   14px;
+  opacity:     0.75;
 }
 
 .program-day h3 {
-  font-size: 34px;
+  font-size:   34px;
   font-weight: 900;
   line-height: 48px;
-  margin: 8px 0;
-  color: #272044;
+  margin:      8px 0;
+  color:       #272044;
 }
 
 .program-day h4 {
-  color: #885df1;
-  font-size: 18px;
+  color:       #885df1;
+  font-size:   18px;
   line-height: 25px;
   font-weight: 900;
 }
@@ -505,7 +512,12 @@ header .cta {
   display: block;
 }
 
-.faq h3 {
+.quote-description a {
+  color: #885df1;
+  text-decoration: underline;
+}
+  
+  .faq h3 {
   font-size: 34px;
   color: #272044;
   line-height: 48px;
@@ -597,4 +609,8 @@ header .cta {
 
 .share-links a {
   margin: 24px 12px;
+}
+
+footer {
+  padding: 25px
 }
