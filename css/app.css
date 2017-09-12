@@ -583,12 +583,17 @@ header .cta {
 
 .follow-links {
   margin: 50px 0;
+  text-align: cente;
 }
 
 .follow {
   font-size: 16px;
   line-height: 22px;
+  text-decoration: none;
+  margin: 0 20px;
 }
+
+
 
 .follow i {
   position: relative;
@@ -596,8 +601,8 @@ header .cta {
   line-height: 22px;
 }
 
-.follow:hover span {
-  text-decoration: underline!important;
+.follow:hover {
+  text-decoration: none;
 }
 
 .follow--twitter {
