@@ -1,3 +1,3 @@
 # shecodes
 
-[http://shecodes.io/](http://shecodes.io/)
+[https://shecodes.io/](https://shecodes.io/)
