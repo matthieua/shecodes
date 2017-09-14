@@ -22,14 +22,14 @@
   font-style: normal;
 }
 
-
 html {
-  background:  url('../images/separators/separator--left-rounded.png') no-repeat left -50px bottom 50px;  
+  background: url('../images/separators/separator--left-rounded.png') no-repeat left -50px bottom 50px;
 }
+
 body {
   position: relative;
   padding-top: 100px;
-  background:  url('../images/separators/separator--right-rounded.png') no-repeat right 360px;  
+  background: url('../images/separators/separator--right-rounded.png') no-repeat right 360px;
 }
 
 body * {
@@ -45,7 +45,7 @@ body * {
   line-height: 22px;
   padding: 16px 24px;
   border: none;
-  border: 1px solid  #885df1;
+  border: 1px solid #885df1;
   transition: background 200ms ease, border-color 200ms ease;
 }
 
@@ -54,12 +54,14 @@ body * {
   background: #5e41a7;
 }
 
-.btn-twitter, .btn-twitter:hover {
+.btn-twitter,
+.btn-twitter:hover {
   border-color: #1da1f2;
   background: #1da1f2;
 }
 
-.btn-facebook, .btn-facebook:hover {
+.btn-facebook,
+.btn-facebook:hover {
   border-color: #3b5998;
   background: #3b5998;
 }
@@ -157,7 +159,6 @@ p {
   box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
 }
 
-
 .content-inner {
   max-width: 960px;
   margin: 0 auto;
@@ -198,32 +199,32 @@ header li {
 }
 
 header li a {
-  font-size:       14px;
-  line-height:     48px;
-  font-weight:     500;
-  padding:         0 12px;
-  color:           #272044;
-  text-decoration:  none;
+  font-size: 14px;
+  line-height: 48px;
+  font-weight: 500;
+  padding: 0 12px;
+  color: #272044;
+  text-decoration: none;
 }
 
 header .ctas {
-  position:        absolute;
-  right:           0;
-  top:             5px;
+  position: absolute;
+  right: 0;
+  top: 5px;
 }
 
 header .cta {
   /* color:           #fff;
   background:      #885df1; */
-  font-weight:     500;
+  font-weight: 500;
   margin-left: 10px;
-  border-radius:   25px;
+  border-radius: 25px;
   text-decoration: none;
-  font-size:       14px;
-  display:         block;
-  line-height:     34px;
-  transition:      box-shadow 200ms ease-in-out;
-  padding:         0 20px;
+  font-size: 14px;
+  display: block;
+  line-height: 34px;
+  transition: box-shadow 200ms ease-in-out;
+  padding: 0 20px;
 }
 
 .headroom--unpinned header .ctas .btn-primary,
@@ -232,18 +233,18 @@ header .cta {
 }
 
 .banner-wrapper {
-  padding:    0;
+  padding: 0;
   text-align: center;
-  position:   fixed;
-  margin:     0 auto;
+  position: fixed;
+  margin: 0 auto;
   transition: top 200ms ease;
-  z-index:    1;
-  position:   fixed;
-  top:        120px;
-  width:      100%;
-  margin:     0 auto;
+  z-index: 1;
+  position: fixed;
+  top: 120px;
+  width: 100%;
+  margin: 0 auto;
   text-align: center;
-  left:        0;
+  left: 0;
 }
 
 .banner {
@@ -309,20 +310,19 @@ header .cta {
 }
 
 .section-header h3 {
-  font-size:      18px;
-  line-height:    26px;
-  color:          #885df1;
-  max-width:      750px;
-  text-align:     center;
-  font-weight:    900;
+  font-size: 18px;
+  line-height: 26px;
+  color: #885df1;
+  max-width: 750px;
+  text-align: center;
+  font-weight: 900;
   text-transform: uppercase;
-  margin:         15px auto;
+  margin: 15px auto;
 }
 
 .section-header a {
-  color:          #885df1;
+  color: #885df1;
   text-decoration: underline;
-  
 }
 
 .section-header p {
@@ -345,14 +345,15 @@ header .cta {
   padding: 24px;
   background-color: #fff;
   border-radius: 4px;
-  transition:  background-color 200ms ease;
+  transition: background-color 200ms ease;
 }
 
 .mission__list-item:hover {
   background-color: #fffbef;
 }
+
 .mission__list-item h3 {
-  margin: 0 0 20px; 
+  margin: 0 0 20px;
   font-size: 34px;
   line-height: 46px;
   font-weight: 900;
@@ -453,24 +454,24 @@ header .cta {
 }
 
 .program-day small {
-  color:       #272044;
-  display:     block;
+  color: #272044;
+  display: block;
   line-height: 1.5;
-  font-size:   14px;
-  opacity:     0.75;
+  font-size: 14px;
+  opacity: 0.75;
 }
 
 .program-day h3 {
-  font-size:   34px;
+  font-size: 34px;
   font-weight: 900;
   line-height: 48px;
-  margin:      8px 0;
-  color:       #272044;
+  margin: 8px 0;
+  color: #272044;
 }
 
 .program-day h4 {
-  color:       #885df1;
-  font-size:   18px;
+  color: #885df1;
+  font-size: 18px;
   line-height: 25px;
   font-weight: 900;
 }
@@ -489,13 +490,13 @@ header .cta {
 }
 
 .program-day li::before {
-  color: #885df1;  
-  content: "\2022"; 
-  font-size: 18px; 
+  color: #885df1;
+  content: "\2022";
+  font-size: 18px;
   font-weight: 900;
-  padding-right: 10px; 
+  padding-right: 10px;
   position: relative;
-  top: 0em; 
+  top: 0em;
 }
 
 .quote {
@@ -521,8 +522,8 @@ header .cta {
   color: #885df1;
   text-decoration: underline;
 }
-  
-  .faq h3 {
+
+.faq h3 {
   font-size: 34px;
   color: #272044;
   line-height: 48px;
@@ -584,7 +585,6 @@ header .cta {
   font-family: 'PT Mono', monospace;
 }
 
-
 .follow-links {
   margin: 50px 0;
   text-align: cente;
@@ -596,8 +596,6 @@ header .cta {
   text-decoration: none;
   margin: 0 20px;
 }
-
-
 
 .follow i {
   position: relative;
@@ -614,7 +612,7 @@ header .cta {
 }
 
 .follow--facebook {
-  color: #3b5998; 
+  color: #3b5998;
 }
 
 .share-links a {
