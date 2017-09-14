@@ -1,8 +1,7 @@
 @media (max-width: 1160px) {
   header {
-      padding: 0 15px;
-    }
-
+    padding: 0 15px;
+  }
   .section {
     padding: 0 15px;
   }
@@ -10,8 +9,6 @@
     max-width: 120px;
     border-radius: 50%;
   }
-
-
   header img {
     margin: 0 auto;
     position: static;
@@ -19,54 +16,42 @@
     left: auto;
     right: auto;
     display: block;
-
   }
   .teacher-photo {
     background: transparent;
     max-width: 100%;
   }
-
   .quote img {
     border-radius: 50%;
   }
-
   .teacher {
     text-align: center;
   }
-
   .teacher--middle img {
     right: auto;
   }
-
   .program-day {
     text-align: center;
   }
-
   .quote {
     text-align: center;
   }
-
   .faq {
     text-align: center;
   }
-  
   .event {
     text-align: center;
   }
-
   .section-separator {
     display: none;
   }
-
   .section-header h2 {
     font-size: 32px;
   }
-
   .mission__list-item {
     text-align: center;
   }
-
   .program-day li::before {
-    content: ""; 
+    content: "";
   }
 }
