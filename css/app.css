@@ -600,6 +600,8 @@ header .cta {
 .follow i {
   position: relative;
   font-size: 22px;
+  top: 2px;
+  margin-right: 5px;
   line-height: 22px;
 }
 
@@ -607,12 +609,16 @@ header .cta {
   text-decoration: none;
 }
 
-.follow--twitter {
+.follow--twitter, .follow--twitter:hover {
   color: #1da1f2;
 }
 
-.follow--facebook {
+.follow--facebook, .follow--facebook:hover {
   color: #3b5998;
+}
+
+.follow--instagram, .follow--instagram:hover {
+  color: #ec0049;
 }
 
 .share-links a {
