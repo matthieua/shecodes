@@ -442,7 +442,9 @@ header .cta {
 }
 
 .teacher-description p {
-  color: #9C5D97;
+  color:       #9C5D97;
+  line-height: 1.5;
+  font-size:   16px;
 }
 
 .teacher--middle .teacher-description {
