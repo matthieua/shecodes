@@ -392,10 +392,10 @@ header .cta {
 }
 
 .teacher h3 {
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 900;
   color: #272044;
-  line-height: 48px;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
 }
@@ -406,7 +406,7 @@ header .cta {
 
 .teacher-photo {
   background: #d9dde6;
-  max-width: 250px;
+  max-width: 200px;
   margin-bottom: 40px;
   border-radius: 0 50% 50% 0;
 }
@@ -416,7 +416,7 @@ header .cta {
   margin: 0;
   position: relative;
   top: 24px;
-  max-width: 250px;
+  max-width: 200px;
   left: 24px;
 }
 
@@ -626,5 +626,47 @@ header .cta {
 }
 
 footer {
-  padding: 25px
+  padding: 25px;
+}
+
+.coder {
+  margin-bottom: 60px;
+}
+
+.coder img {
+
+  max-width: 250px;
+  max-height: 250px;
+  margin: 24px 0;
+}
+
+.coder--left img {
+  border-radius: 0 50% 50% 0;
+}
+
+.coder--middle img, .coder--right img {
+  border-radius: 50% 0 0 50%;
+}
+
+.coder h2 {
+  color:     #272044;
+  font-size: 34px;
+  line-height: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+.coder__rating i {
+  width: 16px;
+  float: left;
+  height: 16px;
+  background: url('../images/icons/star.png') no-repeat 0 3px;
+}
+
+.coder__rating span {
+  color: #272044;
+  padding-left: 10px;
+  font-weight: 500;
+  display: inline-block;
+  font-size: 14px;
 }

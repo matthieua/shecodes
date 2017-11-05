@@ -69,4 +69,22 @@
   .program-day li::before {
     content: "";
   }
+
+  .coder img {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  .coder h2 {
+    text-align: center;
+  }
+  .coder__rating {
+    text-align: center;
+  }
+
+  .coder__rating i {
+    display: none;
+  }
 }
